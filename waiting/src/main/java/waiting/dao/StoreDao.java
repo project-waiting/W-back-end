@@ -8,6 +8,7 @@ public interface StoreDao {
 
     void insert(Store store);
 
+    List<Store> findbyId();
     List<Store> findAll();
 
     int update(Store store);
